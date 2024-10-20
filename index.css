@@ -1,0 +1,211 @@
+body{
+    background-color:rgb(244, 238, 252);
+    color: rgb(67, 10, 88);
+    margin: 0;
+    padding: 0;
+}
+
+.resume-pdf{
+    text-decoration: none;
+    color: rgb(67, 10, 88);
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px 0;
+    padding-right: 40px;
+    font:18px Montserrat,sans-serif;
+   
+}
+
+.home,.about,.contact,.resume{
+    padding-right: 100px;
+    padding: 14px 20px;
+    margin: 0 10px;
+    padding-right: 35px;
+    font-weight: 300;
+
+}
+
+.home:hover{
+   background-color: rgb(227, 190, 240);
+   border-radius: 15px;
+   transition: background-color 0.3s ease, color 0.3s ease;
+   cursor: pointer;
+}
+
+.about:hover{
+    background-color: rgb(227, 190, 240);
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+ }
+
+.contact:hover{
+    background-color: rgb(227, 190, 240);
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+ .resume:hover{
+    background-color: rgb(227, 190, 240);
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.intro{
+    padding-top: 50px;
+    padding-left: 200px;
+    color: rgb(67, 10, 88);
+}
+
+.name{
+    font-family: "nunito",sans-serif; 
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(67, 10, 88);
+}
+
+.short-intro{
+    font-family: "nunito",sans-serif;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.social{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.github-icon,.linkedin-icon,.insta-icon{
+    height: 35px;
+    width: 35px;
+}
+
+
+
+.github-icon:hover{
+    transform: scale(1.2);
+}
+
+.linkedin-icon:hover{
+    transform: scale(1.2);
+}
+
+.insta-icon:hover{
+    transform: scale(1.2);
+}
+
+.about-me{
+    font-family: "nunito",sans-serif;
+    color: rgb(67, 10, 88);
+    padding-top:155px ;
+    padding-left: 200px;
+
+}
+
+.about-head{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.about-intro{
+    padding-top: 15px;
+    padding-left: 60px;
+    font-size: 25px;
+   
+}
+
+.about-me {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.skill{
+    font-family: "nunito",sans-serif;
+    color: rgb(67, 10, 88); 
+    padding-left: 201px;
+    padding-top: 100px;
+   
+    
+}
+
+.skill-title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    flex: 1;
+    height: 18px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    color: #333;
+}
+
+.html-progress-bar ,.css-progress-bar,.c-progress-bar,.javascript-progress-bar{
+    background-color:rgb(67, 10, 88);
+    height: 100%;
+    border-radius: 5px;
+}
+
+.skill span {
+    width: 150px;
+    color: #333;
+}
+
+.skill-sec{
+    padding-top: 25px;
+    padding-left: 50px;
+    color: rgb(67, 10, 88); 
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.project{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.mb-0{
+    font-family: "nunito",sans-serif;
+    color: rgb(67, 10, 88);  
+    font-weight: 600;
+}
+
+.project-head{
+    font-family: "nunito",sans-serif;
+    color: rgb(67, 10, 88);  
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.tribute-page{
+    padding-top: 15px;
+}
+
+.mb-auto{
+    font-family: "nunito",sans-serif;
+    color: rgb(67, 10, 88);  
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family: "nunito",sans-serif;
+    color: rgb(67, 10, 88); 
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
