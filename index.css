@@ -213,6 +213,100 @@ body{
     padding-bottom: 10px;
 }
 
+@media (max-width: 376px) {
+    .nav-bar,.home,.about,.contact,.resume{
+      justify-content: flex-end;
+      padding-left: 15px;
+      gap:0px;
+      padding-right: 0px;
+    }
+
+    .intro,.about-me,.skill,.project{
+        padding-left: 15px;
+    }
+  
+    .name,.skill-title,.project-head,.about-head{
+        font-size: 30px;
+    }
+
+    .about-me{
+        padding-left: 10px;
+    }
+
+    .skill-sec{
+        width:100px;
+        padding-left: 10px;
+    }
+
+    .progress{
+        width: 275px;
+        height:15px;
+    }
+
+    .C,.html,.css,.java-script{
+        font-size: 20px;
+    }
+
+  }
+
+  @media (max-width: 321px) {
+    .nav-bar,.home,.about,.contact,.resume{
+      justify-content: flex-end;
+      padding-left:0px;
+      gap:0px;
+      padding-right: 0px;
+    }
+
+    .intro,.about-me,.skill,.project{
+        padding-left: 15px;
+    }
+  
+    .name{
+        font-size: 30px;
+    }
+
+    .about-me{
+        padding-left: 10px;
+        
+    }
+
+    .skill-sec{
+        width:800px;
+        padding-left: 10px;
+    }
+
+    .progress{
+        width: 245px;
+        height:15px;
+    }
+
+    .about-head{
+        font-size: 30px;
+    }
+
+    .about-intro{
+        font-size: 18px;
+        padding-left: 5px;
+    }
+
+    .skill-title{
+        font-size: 30px;
+    }
+
+    .C,.html,.css,.java-script{
+        font-size: 20px;
+    }
+
+    .project-head{
+        font-size: 30PX;
+    }
+
+  }
+
+
+
+
+
 
 
 
